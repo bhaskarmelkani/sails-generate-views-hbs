@@ -23,10 +23,12 @@ $ sails generate views-hbs
 
 
 ### Configuration in sails.
-##### config/views.js
+#####File:- config/views.js
 Update the file as follows.
 
 ```js
+module.exports.views = {
+
 engine: {
     ext: 'handlebars',
     fn: require("consolidate").handlebars
@@ -35,6 +37,8 @@ engine: {
 layout: 'layouts/layout',
 
 partials: 'partials/'
+
+};
 ```
 ### Development
 
