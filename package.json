@@ -18,8 +18,10 @@
   "author": "bhaskarmelkani",
   "license": "MIT",
   "dependencies": {
-  	"lodash": ">=2.4.x",
-  	"merge-defaults": ">=0.1.0"
+    "consolidate": "^0.14.5",
+    "handlebars": "^4.0.6",
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
   },
   "devDependencies": {
     "sails-generate": "*",

@@ -18,11 +18,24 @@ $ npm install sails-generate-views-hbs
 ##### On the command line
 
 ```sh
-$ sails generate views-hbs 
+$ sails generate views-hbs
 ```
 
 
+### Configuration in sails.
+##### config/views.js
+Update the file as follows.
 
+```js
+engine: {
+    ext: 'handlebars',
+    fn: require("consolidate").handlebars
+  },
+
+layout: 'layouts/layout',
+
+partials: 'partials/'
+```
 ### Development
 
 To get started quickly and see this generator in action, ...
