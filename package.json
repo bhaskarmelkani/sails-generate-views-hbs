@@ -1,8 +1,8 @@
 {
   "name": "sails-generate-views-hbs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate default handlebars views for Sails.",
-  "main": "Generator.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
