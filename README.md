@@ -4,6 +4,7 @@ A `views-hbs` generator for use with the Sails command-line interface.
 
 Certain generators are installed by default in Sails, but they can be overridden.  Other generators create entirely new things.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators and information on building your own generators.
 
+[![Dependency Status](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs/status.svg?style=flat)](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs)
 
 
 ### Installation
