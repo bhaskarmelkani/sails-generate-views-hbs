@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-views-hbs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate default handlebars views for Sails.",
   "main": "lib/index.js",
   "scripts": {
@@ -32,5 +32,13 @@
     "type": "views-hbs",
     "behavior": "overrides `sails generate views-hbs`",
     "sailsVersion": "~0.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhaskarmelkani/sails-generate-views-hbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhaskarmelkani/sails-generate-views-hbs/issues"
+  },
+  "homepage": "https://github.com/bhaskarmelkani/sails-generate-views-hbs"
 }
