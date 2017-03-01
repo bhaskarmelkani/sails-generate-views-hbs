@@ -4,17 +4,17 @@ A `views-hbs` generator for use with the Sails command-line interface.
 
 Certain generators are installed by default in Sails, but they can be overridden.  Other generators create entirely new things.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators and information on building your own generators.
 
-[![Dependency Status](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs/status.svg?style=flat)](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs)  [![npm version](https://badge.fury.io/js/sails-generate-views-hbs.svg)](https://badge.fury.io/js/sails-generate-views-hbs)
+[![Dependency Status](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs/status.svg?style=flat)](https://david-dm.org/bhaskarmelkani/sails-generate-views-hbs)  [![npm version](https://badge.fury.io/js/sails-generate-views-hbs.svg)](https://badge.fury.io/js/sails-generate-views-hbs)    [![GitHub issues](https://img.shields.io/github/issues/bhaskarmelkani/sails-generate-views-hbs.svg)](https://github.com/bhaskarmelkani/sails-generate-views-hbs/issues)
 
 
-### Installation
+### 1. Installation
 
 ```sh
 $ npm install sails-generate-views-hbs
 ```
 
 
-### Usage
+### 2. Usage
 
 ##### On the command line
 
@@ -23,8 +23,8 @@ $ sails generate views-hbs
 ```
 
 
-### Configuration in sails.
-#####File:- config/views.js
+### 3. Configuration in sails.
+#####File to update:- config/views.js
 Update the file as follows.
 
 ```js
@@ -41,6 +41,9 @@ partials: 'partials/'
 
 };
 ```
+
+That is it. Now sails should compile the handlebars files and serve it to you.
+
 ### Development
 
 To get started quickly and see this generator in action, ...
